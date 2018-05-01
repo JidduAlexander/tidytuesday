@@ -1,0 +1,38 @@
+variable,description,type,unit,group,subgroup
+CensusId,Census tract ID,Numeric,id,id,id
+State,"State, DC, or Puerto Rico",String,state,geo,geo
+County,County or county equivalent,String,county,geo,geo
+TotalPop,Total population,Numeric,people,population,population
+Men,Number of men,Numeric,people,population,population
+Women,Number of women,Numeric,people,population,population
+Hispanic,% of population that is Hispanic/Latino,Numeric,percentage,population,race
+White,% of population that is white,Numeric,percentage,population,race
+Black,% of population that is black,Numeric,percentage,population,race
+Native,% of population that is Native American or Native Alaskan,Numeric,percentage,population,race
+Asian,% of population that is Asian,Numeric,percentage,population,race
+Pacific,% of population that is Native Hawaiian or Pacific Islander,Numeric,percentage,population,race
+Citizen,Number of citizens,Numeric,people,population,citizen
+Income,Median household income ($),Numeric,dollar,income,income
+IncomeErr,Median household income error ($),Numeric,dollar,income,income
+IncomePerCap,Income per capita ($),Numeric,dollar,income,income
+IncomePerCapErr,Income per capita error ($),Numeric,dollar,income,income
+Poverty,% under poverty level,Numeric,percentage,income,poverty
+ChildPoverty,% of children under poverty level,Numeric,percentage,income,poverty
+Professional,"% employed in management, business, science, and arts",Numeric,percentage,employment,industry
+Service,% employed in service jobs,Numeric,percentage,employment,industry
+Office,% employed in sales and office jobs,Numeric,percentage,employment,industry
+Construction,"% employed in natural resources, construction, and maintenance",Numeric,percentage,employment,industry
+Production,"% employed in production, transportation, and material movement",Numeric,percentage,employment,industry
+Drive,"% commuting alone in a car, van, or truck",Numeric,percentage,commute,commute_type
+Carpool,"% carpooling in a car, van, or truck",Numeric,percentage,commute,commute_type
+Transit,% commuting on public transportation,Numeric,percentage,commute,commute_type
+Walk,% walking to work,Numeric,percentage,commute,commute_type
+OtherTransp,% commuting via other means,Numeric,percentage,commute,commute_type
+WorkAtHome,% working at home,Numeric,percentage,commute,commute_type
+MeanCommute,Mean commute time (minutes),Numeric,minutes,commute,commute_time
+Employed,Number employed (16+),Numeric,people,employment,employed
+PrivateWork,% employed in private industry,Numeric,percentage,employment,sector
+PublicWork,% employed in public jobs,Numeric,percentage,employment,sector
+SelfEmployed,% self-employed,Numeric,percentage,employment,sector
+FamilyWork,% in unpaid family work,Numeric,percentage,employment,sector
+Unemployment,Unemployment rate (%),Numeric,percentage,employment,unemployed
